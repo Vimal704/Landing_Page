@@ -1,0 +1,173 @@
+:root {
+    --border1: 2px solid red;
+    --border2: 2px solid blue;
+    --border3: 2px solid green;
+    --boreder4: 2px solid yellow;
+  }
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+  /* ------------------------ */
+  /* NAVBAR */
+  /* --------------------------- */
+  #navbar {
+    display: flex;
+    border: var(--border1);
+    position: relative;
+    align-items: center;
+    justify-content: center;
+  }
+  .img {
+    width: 100px;
+    height: 100px;
+    border: var(--border1);
+    margin-right: 20rem;
+  }
+  #navbar ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    margin-right: 20px;
+    border: var(--border2);
+    margin-left: 15rem;
+  }
+  #navbar ul a {
+    text-decoration: none;
+    border: var(--border3);
+    margin: 10px;
+    font-size: 23px;
+  }
+  /* ------------------------ */
+  /* Div1 */
+  /* --------------------------- */
+  .div1 section {
+    border: var(--border1);
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 65px; */
+    margin-right: 50px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* margin-top:70px; */
+    /* margin-bottom: 70px; */
+    width: 500px;
+  }
+  .btn {
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin: 5px 5px;
+  }
+  
+  .p1 {
+    border: var(--border2);
+    margin: 5px 5px;
+    font-size: 48px;
+    font-weight: 1000;
+  }
+  .p2 {
+    border: var(--border2);
+    margin: 5px 5px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .div1 {
+    display: flex;
+    flex-direction: row;
+    border: var(--boreder4);
+    align-items: center;
+    justify-content: space-evenly;
+    height: 450px;
+  }
+  .placeholder {
+    width: 539px;
+    height: 280px;
+    margin-left: 50px;
+  }
+  /* ---------------------- */
+  /* div 2 */
+  /* ------------------------- */
+  .div2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: var(--border3);
+    height: 400px;
+  }
+  .div2 section {
+    display: flex;
+    flex-direction: row;
+    border: var(--border3);
+  }
+  .fig div {
+    width: 170px;
+    height: 170px;
+    border: 4px solid skyblue;
+    border-radius: 15px;
+    margin: 0px 20px;
+  }
+  figcaption {
+    width: 170px;
+    margin: 0px 20px;
+    text-align: center;
+    border: var(--boreder4);
+  }
+  /* -------------------- */
+  /* div3 */
+  /* ------------------------- */
+  .sec3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: var(--border1);
+    height: 350px;
+    /* text-align: center; */
+    align-items: center;
+  }
+  #p3 {
+    width: 700px;
+    font-size: 36px;
+  }
+  #quoter {
+    border: var(--border3);
+    margin-left: 400px;
+  }
+  /* ----------------------- */
+  /* sec4 */
+  /* ------------------------- */
+  .sec4 {
+    display: flex;
+    height: 300px;
+    border: var(--border3);
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+  }
+  .undersec4 {
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    height: 120px;
+    border: var(--border2);
+    align-items: center;
+    justify-content: space-around;
+    font-size: 25px;
+  }
+  .btn2 {
+    padding: 10px 40px;
+    font-size: 20px;
+    border-radius: 10px;
+  }
+  /* -------------------- */
+  /* footer  */
+  /* ------------------------ */
+  footer {
+    text-align: center;
+    padding: 50px;
+    border: var(--boreder4);
+    font-size: 20px;
+  }
+  
